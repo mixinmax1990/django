@@ -1,4 +1,4 @@
-from django.shortcuts import rendergit pull
+from django.shortcuts import render
 
 def hello(request, name):
     return render(request, "hello.html", {"name":name})
